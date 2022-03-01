@@ -1,0 +1,146 @@
+.background {
+  background-image: url(../image/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg);
+  max-width: 1366px;
+  height: 324px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 142px;
+}
+.image-background {
+  position: absolute;
+  max-width: 1366px;
+  height: 324px;
+}
+.nav-ul {
+  display: flex;
+}
+.margin-li {
+  margin: 0 15px;
+}
+.text {
+  width: 195px;
+  height: 59px;
+  font-size: 42px;
+  margin-left: 142px;
+  margin-top: 96px;
+}
+.p-text {
+  margin-left: 142px;
+  margin-right: 5px;
+}
+.div-p {
+  display: flex;
+}
+.space {
+  width: 2px;
+  height: 19px;
+  background: black;
+  margin-right: 5px;
+}
+/* section */
+.section {
+  display: flex;
+  margin: 128px 139px;
+}
+.left-block {
+  width: 444px;
+}
+.section-text {
+  width: 374px;
+  height: 90px;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.lorem {
+  width: 444px;
+}
+.second-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.read-more {
+  width: 184px;
+  height: 50px;
+  background-color: #5863f8;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-image {
+  display: flex;
+  margin-bottom: 16px;
+}
+.first-image {
+  margin-right: 16px;
+}
+.right-block {
+  margin-left: 108px;
+}
+/* second-section */
+.second-background-div {
+  background-image: url(../image/eddi-aguirre-ZAVHbpOn4Jk-unsplash.svg);
+  max-width: 1366px;
+  width: 100%;
+  height: 612px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.title-about-us {
+  color: #5863f8;
+  padding-top: 109px;
+  padding-left: 142px;
+}
+.box-title {
+  width: 530px;
+  height: 90px;
+  font-size: 42px;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-left: 142px;
+}
+.hotel-background {
+  width: 59px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #5863f8;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  margin-top: 34px;
+  margin-left: 142px;
+}
+.box {
+  width: 260px;
+  height: 260px;
+  background-color: aliceblue;
+  position: absolute;
+  text-align: center;
+}
+.box-lorem {
+  margin: 0 auto;
+  width: 221px;
+  height: 62px;
+  color: #b1b1b1;
+}
+.box-text {
+  margin: 10px auto;
+  width: 156px;
+  height: 52px;
+  font-size: 18px;
+}
