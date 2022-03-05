@@ -1,6 +1,5 @@
 .background {
     background-image: url(../image/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg);
-    max-width: 1366px;
     height: 324px;
     width: 100%;
     background-repeat: no-repeat;
@@ -20,11 +19,17 @@
   }
   .image-background {
     position: absolute;
-    max-width: 1366px;
+    width: 100%;
     height: 324px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .absolute {
+      width: 100%;
+  }
+  .image-absolute {
+      width: 100%;
   }
   .nav-ul {
     display: -webkit-box;
@@ -72,7 +77,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 128px 139px;
+    margin: 0 auto;
   }
   .left-block {
     width: 444px;
@@ -114,13 +119,17 @@
   .first-image {
     margin-right: 16px;
   }
-  .right-block {
-    margin-left: 108px;
+  .space-second {
+      width: 188px;
+      height: 50px;
   }
+.space-third {
+    width:40px;
+    height: 60px;
+}
 /* second-section */
 .second-background-div {
     background-image: url(../image/eddi-aguirre-ZAVHbpOn4Jk-unsplash.svg);
-    max-width: 1366px;
     width: 100%;
     height: 612px;
     background-repeat: no-repeat;
@@ -130,7 +139,7 @@
   }
   .image-background2 {
       position: absolute;
-      max-width: 1366px;
+      width:100%;
       height: 612px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -142,7 +151,8 @@
     padding-left: 142px;
   }
   .box-title {
-    width: 530px;
+    max-width: 530px;
+    width: 100%;
     height: 90px;
     font-size: 42px;
     color: aliceblue;
@@ -170,7 +180,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width:1366px;
+    max-width:1366px;
+    width:100%;
     margin-top: 34px;
   }
   .box {
